@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/plano_de_fundo_perfil_wesley_26.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: black;
+    color: #ffff;
+}
+
+.container {
+    text-align: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.container > img {
+    width: 150px;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+h1#principal {
+    margin-top: 5px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    text-overflow: 0 0 15px #000;
+}
+
+div#texto {
+    margin-top: 10px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    text-shadow: 0 0 8px #000;
+}
+
+strong {
+    background-color: #000;
+    border-radius: 10px;
+}
+
+div#texto a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50x;
+    background-color: #000;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+div#texto a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
+
+footer {
+    margin: 0 auto;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    text-overflow: 0 0 15px #000;
+}
